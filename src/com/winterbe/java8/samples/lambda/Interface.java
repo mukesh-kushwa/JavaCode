@@ -17,7 +17,7 @@ public class Interface {
     public   static void  main(String[] args) {
         Formula formula1 = new Formula() {
             @Override
-            public double calculate(int a) {
+            public double  calculate(int a) {
                 return sqrt(a * 100);
             }
         };
